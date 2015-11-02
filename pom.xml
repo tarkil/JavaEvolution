@@ -6,7 +6,11 @@
 
     <groupId>es.deusto.internet.morelab.java</groupId>
     <artifactId>java.evolution</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>seven</module>
+    </modules>
 
 
 </project>
