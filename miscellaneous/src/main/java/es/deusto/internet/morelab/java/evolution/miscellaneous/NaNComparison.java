@@ -40,6 +40,26 @@ public class NaNComparison {
 
         }
 
+
+        float af = Float.NaN;
+
+
+        if (af == Float.NaN) {
+            System.out.println("A is a  Float.NaN"); // Expected result
+        } else {
+            System.out.println("A is a number "); // What really happens
+        }
+
+        float bf = Float.NaN;
+
+        if (af == bf) {
+            System.out.println("A is equal to b"); // Expected result
+        } else {
+            System.out.println("A is not equal to b"); // What really happens
+
+        }
+
+
     }
 
 }
