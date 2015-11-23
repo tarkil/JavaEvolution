@@ -130,7 +130,7 @@ public class StreamOperationExamples {
 
     private static void discardTheThreeFirstElements(List<Person> personList) {
         System.out.println("\n Discard the three first element of the list");
-        personList.stream().distinct().forEach(p -> System.out.println(p));
+        personList.stream().skip(3L).forEach(p -> System.out.println(p));
     }
 
     private static void distinctPersonList(List<Person> personList) {
